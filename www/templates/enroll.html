@@ -1,0 +1,39 @@
+<ion-view view-title="InterWallet Passport" hide-tabs>
+
+		<ion-header-bar class="bar bar-stable ">
+				<div class="title text-left">InterWallet Passport</div>
+		<a class="button icon-right ion-chevron-right button-clear button-light smaller-button">Enroll</a>
+
+  		</ion-header-bar>
+  <ion-content  class="padding border-flang-none none-top">
+    <ion-list class="list-wallet">
+
+   <label class="item item-input">
+    <span class="input-label">First Name</span>
+    <input type="text" placeholder="use your real name">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Last Name</span>
+    <input type="text" placeholder="this is your real identity">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Email</span>
+    <input type="email" placeholder="we don't spam!">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password" placeholder="at least 6 letters / digits">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Phone</span>
+    <input type="tel" placeholder="your phone number">
+  </label>
+
+   
+    </ion-list>
+    
+     <ion-toggle  ng-model="settings.enableRemember" class="pass-toggle">
+        Remeber Password
+    </ion-toggle>
+  </ion-content>
+</ion-view>
